@@ -1,0 +1,16 @@
+<?php
+
+define("DBNAME","bank_app");
+define("DBUSER","root");
+define("DBPASS","");
+
+try {
+$conn = new PDO("mysql:host=localhost;dbname=".DBNAME,DBUSER,DBPASS); //connect to the db
+$conn->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
+} catch (PDOException $e) {
+echo $e->getMessage();
+}
+
+// How to connect php to MySQL database
+
+ ?>

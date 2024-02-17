@@ -1,0 +1,87 @@
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  /* Custom properties */
+  :root {
+    --main-color: #fff;
+  }
+  
+  /* Styles */
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('../public/A1F86FEA-B86D-4002-94CB-5BB346F8B469-370x300.jpeg') no-repeat;
+    background-size: cover;  
+  }
+  
+  .wrapper {
+    width: 42rem;
+    background: transparent;
+    border-radius: 0.2rem solid rgba(225, 225, 225, 0.2);
+    backdrop-filter: blur(2rem);
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+    color: var(--main-color);
+    border-radius: 1rem;
+    padding: 3rem 4rem;  
+  }
+  
+  /* Layout */
+  .wrapper .input-box {
+    position: relative;
+    width: 100%;
+    height: 5rem;  
+    margin: 3rem 0;
+  }
+  
+  .input-box input {
+    width: 100%;
+    height: 100%;
+    border: 0.2rem solid rgba(225, 225, 225, 0.2);
+    border-radius: 4rem;
+    padding: 2rem 4.5rem 2rem 2rem;
+    font-size: 1.6rem; 
+  }
+  
+  .input-box i {
+    position: absolute;
+    right: 2rem;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+  }
+  
+  .wrapper .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    margin: -1.5rem 0 1.5rem;
+    font-size: 1.45rem;
+  }
+  
+  /* Typography */
+  .wrapper h1,
+  .register-link p a {
+    text-align: center;
+    font-size: 3.6rem; 
+  }
+  
+  .remember-forgot a {
+    text-decoration: none;
+    font-size: 1.45rem;
+  }
+  
+  .wrapper .btn {
+    width: 100%;
+    height: 4.5rem;
+    border-radius: 4rem;
+    font-size: 1.6rem;
+    font-weight: 600;  
+  }
+  
+  .register-link {
+    margin: 2rem 0 1.5rem;
+    font-size: 1.45rem; 
+  }

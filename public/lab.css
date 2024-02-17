@@ -1,0 +1,19 @@
+.navbar {
+    display: flex;
+    background-color: aqua;
+    justify-content: space-between;
+   
+}
+
+.nav-list {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    justify-content: space-between;
+  
+}
+
+.nav-list li {
+    /* Additional styling for list items */
+    margin: 0 5px; /* Adjust spacing between list items */
+}
